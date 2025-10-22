@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Kami | Dafa Bootstrap Web</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.8/dist/css/bootstrap.min.css" />
+    <style>
+      body {
+        background-color: #f8f9fa;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .hero-about {
+        background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+        color: white;
+        padding: 80px 0;
+      }
+
+      .hero-about h1 {
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+
+      .about-card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .about-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+      }
+
+      footer {
+        background-color: #212529;
+        color: #ccc;
+        padding: 15px 0;
+        margin-top: 60px;
+      }
+
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="Bosstrap(Dafa)utama.html">DafaWeb</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="Bosstrap(Dafa)utama.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="Bosstrap(Dafa)tentang.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="Bosstrap(Dafa)kontak.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero-about text-center">
+      <div class="container">
+        <h1>Tentang Website Ini</h1>
+        <p class="lead mt-3 mb-0">
+          Website ini dibuat oleh <strong>Dafa</strong> sebagai latihan menggunakan Bootstrap tanpa CDN.
+        </p>
+      </div>
+    </section>
+
+   <!-- ABOUT CONTENT -->
+<div class="container py-5">
+  <div class="row align-items-center">
+    <!-- BAGIAN KIRI: FOTO CARD -->
+    <div class="col-md-4 mb-4 mb-md-0">
+      <div class="card shadow border-0">
+        <img src="../Tugas Bosstrap/gambar/WhatsApp Image 2024-12-04 at 22.24.37_8cae31a9.jpg" class="card-img-top" alt="Foto Dafa" />
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold mt-2">Dafa Andriyana</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- BAGIAN KANAN: TEKS PERKENALAN -->
+    <div class="col-md-8">
+      <h2 class="fw-bold">Halo, Aku Dafa 👋</h2>
+      <p class="lead mt-3">
+        Nickname saya daffshiikii dan 
+        Website ini aku buat untuk memperkenalkan diri sekaligus berbagi pengalaman tentang bagaimana cara membuat website yang
+        menarik dan interaktif. Dan disini Saya  menggunakan beberapa tools seperti <strong>Figma</strong> untuk desain, 
+        <strong>VS Code</strong> untuk coding, dan <strong>GitHub</strong> untuk membagikan hasil proyekku.
+      </p>
+      <p class="text-muted">
+        Tujuanku adalah terus belajar menjadi <strong>Fullstack Developer</strong> dan <strong>UI/UX Designer</strong> <strong>Student</strong> yang bisa menggabungkan desain dan coding yang menarik
+        dengan logika pemrograman yang kuat. Yuk, lihat proyek-proyekku di halaman lainnya! 🚀
+      </p>
+      <a href="" class="btn btn-primary px-4 mt-2">Lihat Selengkapnya</a>
+    </div>
+  </div>
+</div>
+
+
+          <!-- <div class="about-card text-center">
+            <h3 class="fw-bold mb-3">Tujuan Pembuatan</h3>
+            <p class="text-muted">
+              Website ini dirancang untuk memahami dasar-dasar struktur layout dengan Bootstrap,
+              termasuk komponen seperti navbar, card, dan tombol.  
+              Dafa ingin menampilkan hasil belajar dalam bentuk website sederhana tapi enak dilihat 👨‍💻
+            </p>
+            <hr />
+            <p>
+              Dengan tampilan responsif, halaman ini tetap rapi baik di tampilan mobile maupun desktop.
+              Semua halaman saling terhubung melalui navigasi di bagian atas.
+            </p>
+            <a href="Bosstrap(Dafa)utama.html" class="btn btn-primary mt-3">Kembali ke Home</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center">
+      <p>© 2025 Website Dafa | Dibuat dengan <span class="text-primary fw-bold">Bootstrap</span></p>
+    </footer>
+
+    <script src="/bootstrap-5.3.8/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
